@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Environment files
+.env
+*.env
+
+# Database files for local dev
+tourism_portal.db
+*.db
+.db/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
+.agents/
