@@ -7,13 +7,13 @@ Backend repository for the Bow and Red Deer River Corridors Tourism and Entertai
 ## 📁 Repository Structure
 
 ```text
-backend/
+.
 ├── app/
 │   ├── main.py              # FastAPI entry point (/health, /api/* routes)
 │   ├── config.py            # Environment configuration module
 │   ├── database.py          # SQLAlchemy setup & connection
 │   ├── models/
-│   │   └── domain.py        # SQLAlchemy ORM domain models matching schema.sql
+│   │   └── domain.py        # SQLAlchemy ORM domain models
 │   ├── schemas/
 │   │   └── domain.py        # Pydantic request/response schemas
 │   ├── routes/              # API Route Controllers (/api/*)
